@@ -17,12 +17,16 @@ Most skills are **read-only**. Two skills write to Rocketlane — `log-note` and
 | `poc-readiness` | "is the POC ready for the demo" | Pass/fail/warning checklist crossing the POC/Demo tasks with the real demo-account config (catalog, checkout, channels) so the demo shows well. Read-only. |
 | `log-note` | "log this note on the Accor project", "anota no RL que…" | Takes a note in any language, translates it to English, and records it as an internal note on the most relevant playbook task — **after showing the text + destination and getting your OK**. |
 | `status-board` | "let me check off the statuses of my opps" | Shows your active opportunities in chat with a lightweight per-opportunity status picker; writes status changes back to Rocketlane via `update_project` **after you confirm the exact old → new changes**. |
+| `meeting-to-rocketlane` | "log my last meeting with Accor to Rocketlane" | Pulls a meeting from **Granola or Read AI** (whichever is connected), summarizes it in English, and logs the key points + action items as an internal note on the right playbook task — **after you confirm**. |
 
 ## Connectors used
 
-Rocketlane (projects, phases, tasks), **Slack**, VTEX Account Inspector, and
-Atlas (architecture knowledge base). Each skill resolves the current user via
-Rocketlane's profile, so it works for any SE without per-person setup.
+Rocketlane (projects, phases, tasks), **Slack**, VTEX Account Inspector, Atlas
+(architecture knowledge base), and a meeting notetaker — **Granola or Read AI**
+(the `meeting-to-rocketlane` skill auto-detects whichever is connected). The two
+meeting connectors are declared in `.mcp.json` so installing the plugin offers
+them. Each skill resolves the current user via Rocketlane's profile, so it works
+for any SE without per-person setup.
 
 **Slack ↔ Rocketlane reconciliation.** `status-report` and `portfolio-risk`
 actively compare the client's Slack channel against the Rocketlane record and
