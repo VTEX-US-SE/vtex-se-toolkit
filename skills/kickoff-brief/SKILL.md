@@ -88,3 +88,12 @@ project vs. recommended, so nothing reads as fabricated.
   model; regionalized → warehouses, docks, shipping.
 - For deep platform mechanics or architecture trade-offs, the vtex-expert and
   vtex-architect skills are complementary — use them to enrich recommendations.
+
+---
+
+## Shared standards (source of truth)
+
+This skill is grounded in the VTEX SE governance standards in [`../../standards/`](../../standards/). When this skill and a standard disagree, **the standard wins** — those files are the single source of truth that the Claude Project and Cowork consume too.
+
+- `SE_SolutionDesign.md` — solution design structure + VTEX capability map
+- `SE_OKF_Standard.md` — Drive / OKF folder layout

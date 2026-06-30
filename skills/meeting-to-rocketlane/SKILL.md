@@ -81,3 +81,12 @@ neither is connected, say so and point the SE to connect Granola or Read AI.
 - This skill never modifies the meeting source — it only reads from Granola /
   Read AI. The only write is the confirmed Rocketlane note.
 - If the meeting can't be found, say so plainly rather than logging a vague note.
+
+---
+
+## Shared standards (source of truth)
+
+This skill is grounded in the VTEX SE governance standards in [`../../standards/`](../../standards/). When this skill and a standard disagree, **the standard wins** — those files are the single source of truth that the Claude Project and Cowork consume too.
+
+- `SE_OKF_Standard.md` — transcript naming + note conventions
+- `SE_Playbook_NextSteps.md` — action items map to next steps

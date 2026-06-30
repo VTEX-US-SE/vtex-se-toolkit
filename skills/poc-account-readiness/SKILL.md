@@ -100,3 +100,12 @@ Tie each gap to where it's fixed.
   evidence.
 - A demo only needs to be credible, not complete — focus on what the prospect
   will actually click through, not exhaustive production-readiness.
+
+---
+
+## Shared standards (source of truth)
+
+This skill is grounded in the VTEX SE governance standards in [`../../standards/`](../../standards/). When this skill and a standard disagree, **the standard wins** — those files are the single source of truth that the Claude Project and Cowork consume too.
+
+- `SE_Governance_Rubric.md` — health flags
+- `SE_OKF_Standard.md` — where POC/Demo docs live in the OKF

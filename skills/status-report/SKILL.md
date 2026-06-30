@@ -154,3 +154,12 @@ user declines, drop it and don't re-ask every run.
 - Call out a clean **Handover to PS** when Solution Design is done and the
   Knowledge Transfer / Handover tasks are the only ones left — that's the SE's
   finish line.
+
+---
+
+## Shared standards (source of truth)
+
+This skill is grounded in the VTEX SE governance standards in [`../../standards/`](../../standards/). When this skill and a standard disagree, **the standard wins** — those files are the single source of truth that the Claude Project and Cowork consume too.
+
+- `SE_Governance_Rubric.md` — opportunity health by stage
+- `SE_Playbook_NextSteps.md` — recommended next steps

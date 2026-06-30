@@ -85,3 +85,11 @@ consequential:
   across the matching tasks, or log it once on the most relevant — their call.
 - Keep the English crisp and factual. This note feeds the eventual PS handover, so
   clarity matters more than literal word-for-word translation.
+
+---
+
+## Shared standards (source of truth)
+
+This skill is grounded in the VTEX SE governance standards in [`../../standards/`](../../standards/). When this skill and a standard disagree, **the standard wins** — those files are the single source of truth that the Claude Project and Cowork consume too.
+
+- `SE_OKF_Standard.md` — note conventions and where artifacts live

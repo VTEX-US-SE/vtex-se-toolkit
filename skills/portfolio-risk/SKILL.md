@@ -101,3 +101,13 @@ before handover". Lead with the few that truly need the SE today.
   Always surface these; they quietly distort the SE's active list.
 - Be precise on the "why" — "47 days past expected close, still in Negotiate"
   beats "looks risky".
+
+---
+
+## Shared standards (source of truth)
+
+This skill is grounded in the VTEX SE governance standards in [`../../standards/`](../../standards/). When this skill and a standard disagree, **the standard wins** — those files are the single source of truth that the Claude Project and Cowork consume too.
+
+- `SE_Governance_Rubric.md` — scoring / health by stage
+- `SE_Playbook_NextSteps.md` — suggested next action
+- `SE_OKF_Standard.md` — a missing OKF folder is itself a risk flag

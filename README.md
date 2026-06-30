@@ -48,3 +48,15 @@ implementation projects, which use different fields (budget, hours, go-live).
 
 Add this folder as a plugin via **Settings → Capabilities**, or share the packaged
 `.skill` bundles with the team.
+
+## Architecture & standards
+
+This toolkit is one surface of a convergent architecture — see **[`ARCHITECTURE.md`](ARCHITECTURE.md)**.
+
+The governance logic (health rubric, next-steps playbook, demo rubric, solution-design template,
+OKF) lives in **[`standards/`](standards/)** as the single source of truth that the skills *and* the
+Claude Project both consume — see [`standards/README.md`](standards/README.md). The Claude Project
+system prompt is in [`project/Instructions.md`](project/Instructions.md).
+
+Validated on (2026-06-30): the plugin installs and its 7 skills are available inside
+a Claude Project, grounded in Atlas + Google Drive (OKF).
