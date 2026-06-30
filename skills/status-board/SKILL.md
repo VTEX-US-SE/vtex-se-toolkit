@@ -72,3 +72,11 @@ If the SE explicitly wants a clickable board instead of chat, the same logic can
 be delivered as a self-contained HTML artifact (a table with a status `<select>`
 per row and a confirm-then-write Save button calling `update_project`). Default
 to the in-chat flow above unless they ask for the UI.
+
+---
+
+## Shared standards (source of truth)
+
+This skill is grounded in the VTEX SE governance standards in [`../../standards/`](../../standards/). When this skill and a standard disagree, **the standard wins** — those files are the single source of truth that the Claude Project and Cowork consume too.
+
+- `SE_Governance_Rubric.md` — stage taxonomy (read-only context for status decisions)
